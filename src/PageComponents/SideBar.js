@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 let SideBar = () => 
     <div className="sideBar flexC center sideCat">
-        <div>Hats</div>
-        <div>Pants</div>
-        <div>Tops</div>
+        <Link to="/cats/hats">Hats</Link>
+        <Link to="/cats/pants">Pants</Link>
+        <Link to="/cats/tops">Tops</Link>
         <div>Boots</div>
         <div>Knick Knacks</div>
         <div>Paddy Whacks</div>

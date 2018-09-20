@@ -4,7 +4,7 @@ import ProductList from './ProductList';
 
 let ProductArea = (props) => 
     <div className="productSection">
-        <ProductList products={props}/>
+        <ProductList productList={props.productList} cat="All Products"/>
     </div>
 
 let ProductAreaSmart = connect(state => state)(ProductArea)

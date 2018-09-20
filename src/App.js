@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import ProductArea from './ProductArea';
-import NavBar from './NavBar';
-import SideBar from './SideBar';
+import ProductArea from './PageComponents/ProductArea';
+import NavBar from './PageComponents/NavBar';
+import SideBar from './PageComponents/SideBar';
 
 class App extends Component {
   render() {

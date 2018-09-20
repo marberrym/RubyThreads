@@ -1,10 +1,10 @@
 import React from 'react';
-import NavBar from './NavBar';
-import AboutContent from './AboutContent';
+import NavBar from '../PageComponents/NavBar';
+import AboutContent from '../PageComponents/AboutContent';
 
 let AboutPage = () =>
     <div className="flexC">
-        <NavBar />
+        <NavBar/>
         <AboutContent />
     </div>
 

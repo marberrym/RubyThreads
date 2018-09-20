@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './NavBar';
+import NavBar from '../PageComponents/NavBar';
 
 let NotFound = () =>
     <div className="flexC">
