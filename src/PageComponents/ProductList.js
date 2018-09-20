@@ -2,7 +2,7 @@ import React from 'react';
 import ProductEntry from './ProductEntry';
 
 let ProductList = (props) => 
-    <div>
+    <div className="productSection">
         <div className="navtext margin-top header">{props.cat}</div>
         <div className="flex wrap">
         {props.productList.map(product =>
