@@ -8,7 +8,7 @@ let NavBar = () =>
             <Link to="/"><img src="/images/gem3.png" className="navruby" alt="Ruby Logo"/></Link>
             <Link to="/About"><div className="navtext">About Ruby Threads</div></Link>
         </div> 
-        <NavCartCount/>
+        <Link to="/cart"><NavCartCount/></Link>
     </div>
 
 export default NavBar;

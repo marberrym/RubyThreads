@@ -5,6 +5,7 @@ import AboutPage from './Pages/AboutPage';
 import NotFound from './Pages/NotFound';
 import Category from './Pages/CategoryScreen';
 import ProductSmart from './Pages/ProductScreen';
+import CartSmart from './Pages/Cart';
 
 let Router = () =>
     <HashRouter>
@@ -13,6 +14,7 @@ let Router = () =>
             <Route exact path='/About' component={AboutPage} />
             <Route exact path='/cats/:category' component={Category} />
             <Route exact path='/product/:productid' component={ProductSmart} />
+            <Route exact path='/cart' component={CartSmart}/>
             <Route path='*' component={NotFound} />        
         </Switch>
     </HashRouter>
