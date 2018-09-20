@@ -142,6 +142,22 @@ body {
   border-radius: .5em;
   font-family: var(--main-text);
   border: 2px solid black;
+  transition: .3s ease-in-out;
+}
+
+.cartBtn:hover {
+  transform: scale(1.1);
+  color: red;
+  border: 2px solid red;
+}
+
+.cartBtn:active {
+  outline: none;
+  box-shadow: none;
+}
+.cartBtn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .cont {
