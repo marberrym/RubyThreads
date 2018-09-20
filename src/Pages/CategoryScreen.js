@@ -9,12 +9,15 @@ import Category from '../PageComponents/Category';
 
 
 let CategoryScreen = (props) =>
-    <div>
+    <div className="flexC">
         <NavBar />
-        <SideBar />
-        <Category cat={props.categories.find((category) =>
-             category.slug === props.match.params.category
-        )} productList={props.productList}/>
+        <div className="flex">
+            <SideBar />
+            <Category cat={props.categories.find((category) =>
+                category.slug === props.match.params.category
+            )} productList={props.productList}/>
+        </div>
+        
     </div>
     
 
