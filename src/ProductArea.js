@@ -1,8 +1,11 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import ProductList from './ProductList';
 
-let ProductArea = () => 
+let ProductArea = (props) => 
     <div className="productSection">
-        <h1>ALL ZE PRODUCTS</h1>
+        <ProductList products={props}/>
     </div>
 
-export default ProductArea;
+let ProductAreaSmart = connect(state => state)(ProductArea)
+export default ProductAreaSmart;
