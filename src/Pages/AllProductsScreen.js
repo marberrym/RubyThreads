@@ -6,7 +6,7 @@ import ProductList from '../PageComponents/ProductList';
 let reqUrl = 'http://0.tcp.ngrok.io:18732/'
 
 class FetchProducts extends Component {
-    componentDidMount() = 
+    componentDidMount() 
 }
     
         {fetch(reqUrl + 'product')
