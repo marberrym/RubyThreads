@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ProductArea from './Pages/AllProductsScreen';
+import FetchProducts from './Pages/AllProductsScreen';
 import NavBar from './PageComponents/NavBar';
 import SideBar from './PageComponents/SideBar';
 
@@ -11,7 +11,7 @@ class App extends Component {
         <NavBar />
         <div className="flex bottomseg">
           <SideBar />
-          <ProductArea />
+          <FetchProducts />
         </div>
       </div>
     );
