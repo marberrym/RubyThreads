@@ -6,13 +6,13 @@ import CartItem from '../PageComponents/CartItem';
 let Cart = (props) =>
     <div className="flexC">
         <NavBar/>
-        { props.cart.length === 0 ? 
-            <h1>youre cart is empty</h1> {
+        { (props.cart.length === 0 ? 
+            <h1>Your cart is empty</h1> 
             :
             <div className="flexC">
                 {props.cart.map(cartitem => <CartItem item={cartitem}/>)}
             </div> 
-            }
+        )
         
 
         }

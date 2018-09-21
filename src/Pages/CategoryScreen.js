@@ -21,5 +21,6 @@ let CategoryScreen = (props) =>
     </div>
     
 
-let CategorySmart = connect(state => state)(CategoryScreen)
+let CategorySmart = connect(state => ({categories: state.categories,
+    productList: state.productList}))(CategoryScreen)
 export default CategorySmart;

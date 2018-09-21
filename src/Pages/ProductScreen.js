@@ -13,6 +13,6 @@ let ProductScreen = (props) =>
         </div>
     </div>
 
-let ProductSmart = connect(state => state)(ProductScreen)
+let ProductSmart = connect(state => ({productList: state.productList}))(ProductScreen)
 export default ProductSmart;
 

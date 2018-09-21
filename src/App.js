@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ProductArea from './PageComponents/ProductArea';
+import ProductArea from './Pages/AllProductsScreen';
 import NavBar from './PageComponents/NavBar';
 import SideBar from './PageComponents/SideBar';
 
